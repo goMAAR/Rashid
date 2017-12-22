@@ -1,0 +1,43 @@
+{
+  "name": "hrsf84-thesis",
+  "version": "1.0.0",
+  "description": "The project description",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server/index.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rashidmuhammad07/hrsf84-thesis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rashidmuhammad07/hrsf84-thesis/issues"
+  },
+  "homepage": "https://github.com/rashidmuhammad07/hrsf84-thesis#readme",
+  "dependencies": {
+    "aws-sdk": "^2.173.0",
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "bookshelf": "^0.12.0",
+    "elastic-apm-node": "^0.9.0",
+    "elasticsearch": "^14.0.0",
+    "eslint": "^4.13.1",
+    "express": "^4.16.2",
+    "faker": "^4.1.0",
+    "file-system": "^2.2.2",
+    "jquery": "^3.2.1",
+    "json2csv": "^3.11.5",
+    "kibana": "^5.1.1",
+    "knex": "^0.14.2",
+    "moment": "^2.19.4",
+    "pg": "^7.4.0",
+    "sqs-consumer": "^3.8.0",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "^1.10.0"
+  }
+}
